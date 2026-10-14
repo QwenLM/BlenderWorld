@@ -1,0 +1,6 @@
+# Supporting tools from Appendix D.2. These package versions are release pins;
+# the paper specifies the tools but does not prescribe these package versions.
+numpy==2.2.6
+Pillow==11.3.0
+scipy==1.15.3
+imageio==2.37.0

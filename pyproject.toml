@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blenderworld"
+version = "0.3.0"
+description = "BlenderWorld: benchmarking visual agents for 3D creation from real-world references"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31", "Pillow>=10", "json-repair>=0.30", "huggingface-hub>=0.25"]
+
+[project.optional-dependencies]
+data = ["datasets>=3", "pyarrow>=17"]
+harbor = ["harbor==0.23.0"]
+
+[project.scripts]
+bw = "blenderworld.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["blenderworld*"]
+
+[tool.setuptools.package-data]
+blenderworld = ["harbor_assets/*"]
