@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  📑 <a href="https://arxiv.org/abs/2609.00111">Technical Report</a> &nbsp;|&nbsp;
+  📑 <a href="https://github.com/QwenLM/BlenderWorld/blob/main/docs/BlenderWorld__Benchmarking_Visual_Agents_for_3D_Creation_from_Real_World_References.pdf">Technical Report</a> &nbsp;|&nbsp;
   🤗 <a href="https://huggingface.co/datasets/Qwen/BlenderWorld">Hugging Face</a> &nbsp;|&nbsp;
   🤖 <a href="https://modelscope.cn/datasets/Qwen/BlenderWorld">ModelScope</a>
 </p>
