@@ -7,10 +7,16 @@
 <p align="center"><strong>Benchmarking Visual Agents for 3D Creation from Real-World References</strong></p>
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/Qwen/BlenderWorld">Dataset</a> ·
+  <a href="https://blenderworld.github.io/">Website</a> ·
   <a href="#quickstart">Quickstart</a> ·
   <a href="#evaluation">Evaluation</a> ·
   <a href="#documentation">Documentation</a>
+</p>
+
+<p align="center">
+  📑 <a href="https://arxiv.org/abs/2609.00111">Technical Report</a> &nbsp;|&nbsp;
+  🤗 <a href="https://huggingface.co/datasets/Qwen/BlenderWorld">Hugging Face</a> &nbsp;|&nbsp;
+  🤖 <a href="https://modelscope.cn/datasets/Qwen/BlenderWorld">ModelScope</a>
 </p>
 
 [![Overview of BlenderWorld: references on the left and top lead to editable 3D scenes on the right and bottom](docs/assets/benchmark-overview.jpg)](docs/assets/benchmark-overview.jpg)
